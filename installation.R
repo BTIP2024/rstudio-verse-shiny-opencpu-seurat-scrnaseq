@@ -19,6 +19,9 @@ install.packages("markdown")
 install.packages("ggthemes")
 install.packages("shinyWidgets")
 install.packages("shinyFiles")
+install.packages("svglite")
+install.packages("knitr")
+install.packages("kableExtra")
 
 
 
@@ -39,6 +42,9 @@ library(markdown)
 library(ggthemes)
 library(shinyWidgets)
 library(shinyFiles)
+library(svglite)
+library(knitr)
+library(kableExtra)
 library(usethis)
 library(devtools)
 
