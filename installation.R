@@ -17,6 +17,7 @@ install.packages("shinydashboardPlus")
 install.packages("glue")
 install.packages("markdown")
 install.packages("ggthemes")
+install.packages("shinyWidgets")
 
 
 
@@ -35,6 +36,7 @@ library(shinydashboardPlus)
 library(glue)
 library(markdown)
 library(ggthemes)
+library(shinyWidgets)
 library(usethis)
 library(devtools)
 
