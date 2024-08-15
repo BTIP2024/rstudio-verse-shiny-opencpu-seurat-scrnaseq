@@ -13,9 +13,11 @@ RUN Rscript /scripts/installation.R
 WORKDIR "/root"
 RUN git clone https://github.com/BTIP2024/DR-scRNAseq
 RUN git clone https://github.com/BTIP2024/api-docu-seurat-opencpu
+# RUN git clone https://github.com/BTIP2024/...
 
 RUN cp -R /root/DR-scRNAseq /srv/shiny-server/
 RUN cp -R /root/api-docu-seurat-opencpu /srv/shiny-server/
+#RUN cp -R /root/...
 
 EXPOSE 80
 EXPOSE 443
