@@ -18,6 +18,7 @@ install.packages("glue")
 install.packages("markdown")
 install.packages("ggthemes")
 install.packages("shinyWidgets")
+install.packages("shinyFiles")
 
 
 
@@ -37,6 +38,7 @@ library(glue)
 library(markdown)
 library(ggthemes)
 library(shinyWidgets)
+library(shinyFiles)
 library(usethis)
 library(devtools)
 
